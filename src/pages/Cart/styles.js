@@ -29,6 +29,36 @@ export const Container = styled.div`
   }
 `;
 
+export const EmptyCart = styled.div`
+  padding: 80px 50px;
+  text-align: center;
+  svg {
+    fill: #ddd;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.3em;
+  }
+  p {
+    font-size: 14px;
+    color: #777;
+    margin: 0.6em 0 2em;
+  }
+
+  button {
+    justify-content: center;
+    align-items: center;
+    background: #7159c1;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 0 12px;
+    color: #fff;
+    height: 30px;
+  }
+`;
+
 export const ProductTable = styled.table`
   width: 100%;
 
